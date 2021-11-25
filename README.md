@@ -51,7 +51,7 @@ module.exports = {
     '^(.*):(.*)$': '$1_$2',
   },
   transformIgnorePatterns: [
-    "<roodDir>/node_modules/meteor-jest-stubs",
+    "<rootDir>/node_modules/meteor-jest-stubs",
   ],
   unmockedModulePathPatterns: [
     '/^imports\\/.*\\.jsx?$/',
